@@ -1,0 +1,160 @@
+/* button1  */
+.button1{
+    color: rgb(5, 74, 51);
+    size: 100px;
+    border-radius: 10px;
+    
+}  
+ .sign{
+    padding: 24px 160px 24px 160px;
+    display: flex;
+    justify-content: space-between;
+ }
+ /* Explore header background*/
+ .Explore{
+
+    width: 1280 ;
+    height: 560px;
+    border-radius: 24px;
+    background-color: #9fe8c6;
+    padding: 80px 100px 80px 100px;
+    gap: 64px;
+    margin: 100px;
+    
+ }
+ .bangladesh{
+    
+ }
+ .idea{
+    display: flex;
+    justify-content: space-around;
+ }
+
+ .h4{
+   font-weight: 700;
+   size: 0cap;
+ }
+ .explore-text{
+    font-size: 56px;
+    
+    
+ }
+ .btn-pri{
+    width: 270px;
+    height: 56px;
+    border-radius: 8px;
+    padding: 17px 34px 17px 34px;
+    gap: 48px;
+    background-color: #11b9db;
+    margin-top: 70px;
+}
+    /* background-color: #11b9db;
+    padding: 12px 25px;
+    color: hsla(0, 0%, 100%, 0.936);
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    margin: 0px 0px 100px 160px; */
+
+
+
+.hero{
+    margin-top: 50px;
+}
+
+ /* .Explore1{
+
+    width: 1280px ;
+    height: 560px;
+    border-radius: 24px;
+    align-items: center;
+    background-color: hwb(0 100% 0%);
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    
+ } */
+
+ /* pillars of bangladesh  */
+
+ .pillars{
+    /* justify-content: space-between; */
+    background-color: bisque;
+    /* width: 1280px; */
+    height: 324px;
+    gap: 32px;
+    padding: 80px 100px 80px 100px;
+    margin: 100px;
+    border-radius: 14px;
+    
+ }
+ .pillars2{
+    
+    display: flex;
+    width: 1280;
+    height: 244px;
+    gap: 24px;
+ }
+ .pillars3{
+    background-color: aliceblue;
+    width: 302px;
+    height: 244px;
+    border-radius: 16px;
+    border: 1px;
+    padding: 10px;
+    gap: 24px;
+
+ }
+
+ /* vision-background */
+
+ .just{
+    justify-content: center;
+    
+ }
+ .vision-bg{
+    /* justify-content: space-between; */
+    /* background-color: rgb(211, 129, 129); */
+    width: 1280;
+    /* height: 465px; */
+    gap: 32px;
+    padding: 80px 100px 80px 100px;
+    margin: 100px;
+    border-radius: 24px;
+    
+ }
+ .vision{
+    justify-content: space-around;
+ }
+
+ .sub-vison{
+    
+    display: flex;
+    width: 1280px;
+    height: 325px;
+    gap: 24px;
+ }
+
+ .lern-more{
+    background-color: aquamarine;
+    width: 410.67px;
+    height: 200px;
+    border-radius: 16px;
+    padding: 32px;
+    gap: 24px;
+    
+    
+ }
+ .dr{
+
+    background-color: rgb(233, 240, 240);
+    width: 1280;
+    height: 256px;
+    gap: 24px;
+    border-radius: 10px;
+    padding: 45px;
+ }
+ .text{
+    margin-top: 10px;
+   
+ }
