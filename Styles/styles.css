@@ -1,160 +1,491 @@
-/* button1  */
-.button1{
-    color: rgb(5, 74, 51);
-    size: 100px;
-    border-radius: 10px;
-    
-}  
- .sign{
-    padding: 24px 160px 24px 160px;
-    display: flex;
-    justify-content: space-between;
- }
- /* Explore header background*/
- .Explore{
-
-    width: 1280 ;
-    height: 560px;
-    border-radius: 24px;
-    background-color: #9fe8c6;
-    padding: 80px 100px 80px 100px;
-    gap: 64px;
-    margin: 100px;
-    
- }
- .bangladesh{
-    
- }
- .idea{
-    display: flex;
-    justify-content: space-around;
- }
-
- .h4{
-   font-weight: 700;
-   size: 0cap;
- }
- .explore-text{
-    font-size: 56px;
-    
-    
- }
- .btn-pri{
-    width: 270px;
-    height: 56px;
-    border-radius: 8px;
-    padding: 17px 34px 17px 34px;
-    gap: 48px;
-    background-color: #11b9db;
-    margin-top: 70px;
-}
-    /* background-color: #11b9db;
-    padding: 12px 25px;
-    color: hsla(0, 0%, 100%, 0.936);
-    border-radius: 5px;
-    font-size: 20px;
-    border: none;
-    margin: 0px 0px 100px 160px; */
-
-
-
-.hero{
-    margin-top: 50px;
-}
-
- /* .Explore1{
-
-    width: 1280px ;
-    height: 560px;
-    border-radius: 24px;
-    align-items: center;
-    background-color: hwb(0 100% 0%);
-    justify-content: center;
-    align-items: center;
-    place-items: center;
-    
- } */
-
- /* pillars of bangladesh  */
-
- .pillars{
-    /* justify-content: space-between; */
-    background-color: bisque;
-    /* width: 1280px; */
-    height: 324px;
-    gap: 32px;
-    padding: 80px 100px 80px 100px;
-    margin: 100px;
-    border-radius: 14px;
-    
- }
- .pillars2{
-    
-    display: flex;
-    width: 1280;
-    height: 244px;
-    gap: 24px;
- }
- .pillars3{
-    background-color: aliceblue;
-    width: 302px;
-    height: 244px;
-    border-radius: 16px;
-    border: 1px;
-    padding: 10px;
-    gap: 24px;
-
- }
-
- /* vision-background */
-
- .just{
-    justify-content: center;
-    
- }
- .vision-bg{
-    /* justify-content: space-between; */
-    /* background-color: rgb(211, 129, 129); */
-    width: 1280;
-    /* height: 465px; */
-    gap: 32px;
-    padding: 80px 100px 80px 100px;
-    margin: 100px;
-    border-radius: 24px;
-    
- }
- .vision{
-    justify-content: space-around;
- }
-
- .sub-vison{
-    
-    display: flex;
-    width: 1280px;
-    height: 325px;
-    gap: 24px;
- }
-
- .lern-more{
-    background-color: aquamarine;
-    width: 410.67px;
-    height: 200px;
-    border-radius: 16px;
-    padding: 32px;
-    gap: 24px;
-    
-    
- }
- .dr{
-
-    background-color: rgb(233, 240, 240);
-    width: 1280;
-    height: 256px;
-    gap: 24px;
-    border-radius: 10px;
-    padding: 45px;
- }
- .text{
-    margin-top: 10px;
+/* header  */
+/* .bg1{
+   width: auto;
+   height: 100px;
+   margin: 100px;
+   border-radius: 25px;
    
+} */
+ .bg1{
+   max-height: 800px;
+
  }
+.hed-div
+{
+   display: flex;
+   width: auto;
+   height: 100px;
+   margin: 100px;
+   justify-content: space-between;
+}
+.button{
+   width: 116px;
+   height: 10px;
+   border-radius: 8px;
+   border: 1px;
+   padding: 15px 30px 15px 30px;
+   justify-content: center;
+   margin-top: 20px;
+}
+/* All background  */
+.bg2{
+   max-width: auto;
+   background-color: white;
+   height: auto;
+   margin: 100px;
+   border-radius: 25px;
+}
+
+/* first box css */
+.bg3{
+   display: flex;
+   justify-content: space-around;
+   background-color: aquamarine;
+   /* width: auto;
+   height: 556px; */
+   height: 556px;
+   border-radius: 15px;
+}
+.ide-img
+{
+   margin-top: 25px;
+   padding: 30px;
+}
+
+.idea-text{
+  font-size: 56px;
+}
+.idea-div-text{
+   width: auto;
+   height: auto;
+   margin: 50px;
+}
+.ides-button{
+   width: 270px;
+   height: 56px;
+   border-radius: 8px;
+   color: aqua;
+
+}
+/* pillars section  */
+.pillars-bg{
+   /* display: flex; */
+   /* background-color: rgb(226, 231, 230); */
+   /* width: auto;
+   height: 556px; */
+   height: 500px;
+   border-radius: 15px;
+   margin-top: 50px;
+   
+}
+.pillar-head{
+   margin-left: 10px;
+}
+.pillars-box{
+   
+   width: auto;
+   display: flex;
+   /* margin: 5px 15px 5px 15px; */
+   height: 244px;
+   border-radius: 15px;
+   margin-top: 50px;
+   justify-content: space-around;
+   
+
+}
+.box{
+   width: auto;
+   height: auto;
+   /* text-align: center; */
+   padding: 10px;
+   gap: 24px;
+   justify-content: space-around;
+   margin-right: 20px;
+   background-color: aliceblue;
+   border-radius: 15px;
+
+}
+
+/* The vision of nature */
+.vision-bg{
+   max-width: auto;
+   /* background-color: rgb(255, 245, 245); */
+   height: 765px;
+   margin-bottom: 80px;
+   /* margin: 100px; */
+
+}
+.vision-header-text{
+   margin: 10px;
+   padding: 10px;
+}
+.vision-box-bg{
+   display: flex;
+   fill: 1280px;
+   height: 400px;
+   gap: 20px;
+   /* background-color: rgb(230, 202, 202); */
+   justify-content: space-around;
+}
+.box{
+   width: auto;
+   height: 325px;
+   margin: 5px;
+
+}
+.lern-button1{
+   
+   width: auto;
+   height: 52px;
+   border-radius: 8px;
+   border: 1px;
+   padding: 15px 30px 15px 30px;
+   justify-content: center;
+   margin-top: 20px;
+   background-color: rgb(201, 190, 190);
+   margin-top: 20px;
+
+
+}
+
+.lern-button2{
+   
+   width: auto;
+   height: 52px;
+   border-radius: 8px;
+   border: 1px;
+   padding: 15px 30px 15px 30px;
+   justify-content: center;
+   margin-top: 20px;
+   background-color: rgb(153, 70, 201);
+   margin-top: 20px;
+
+
+}
+.lern-button3{
+   
+   width: auto;
+   height: 52px;
+   border-radius: 8px;
+   border: 1px;
+   padding: 15px 30px 15px 30px;
+   justify-content: center;
+   margin-top: 20px;
+   background-color: rgb(158, 93, 93);
+   margin-top: 20px;
+   animation: cubic-bezier(0.55, 0.085, 0.68, 0.53);
+
+
+}
+
+
+.younus{
+   background-image: url('../B11A1--assignment-1/assets/quote-bg.png');
+   /* background-position: ; */
+   background-repeat: no-repeat;
+   margin: 30px;
+   padding: 15px;
+
+}
+.vision-footer{
+   width: auto;
+   height: 220px;
+   background-color: rgb(214, 188, 188);
+   border-radius: 15px;
+   margin-bottom: 40px;
+   padding-bottom: 10px ;
+}
+
+/* Opinion */
+
+.header-opinion{
+   font-size: large;
+   margin: 20px;
+   margin-top: 20px;
+}
+
+.opinion{
+   border-radius: 20px;
+   /* background-color: #dab5b5; */
+   width: auto;
+   height: 481px;
+   gap: 24px;
+   margin-top: 50px;
+
+}
+
+.opinio-bg2{
+   background-color: #f4f4f4;
+   width: auto;
+   height: 409px;
+   border-radius: 30px;
+   margin: 30px;
+}
+
+/* special instructions */
+body {
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 20px;
+   background-color: #f9f9f9;
+ }
+
+ h1 {
+   font-size: 24px;
+   font-weight: bold;
+   margin-bottom: 20px;
+ }
+
+ .container {
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   background-color: #ffffff;
+   padding: 20px;
+ }
+
+ table {
+   width: 100%;
+   border-collapse: collapse;
+ }
+
+ th {
+   background-color: #dff4df;
+   text-align: left;
+   padding: 10px;
+   font-weight: bold;
+ }
+
+ td {
+   padding: 15px 10px;
+   border: 1px solid #ddd;
+   vertical-align: middle;
+ }
+
+ td:last-child {
+   text-align: right;
+ }
+
+ .button {
+   height: 91px;
+   background-color: #dff4df;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   padding: 8px 15px;
+   font-size: 14px;
+   color: #333;
+   cursor: pointer;
+   display: inline-flex;
+   align-items: center;
+ }
+
+ .button:hover {
+   background-color: #cce3cc;
+ }
+
+ .button:focus {
+   outline: none;
+ }
+
+ .dropdown-icon {
+   margin-left: 10px;
+ }
+
+
+
+/* Recent news sections  */
+.news-bg{
+   width: auto;
+   height: 1406px;
+   background-color:white;
+
+}
+.news-header{
+   width: auto;
+   height: 120px;
+   gap: 24px;
+   /* background-color: brown; */
+   /* s */
+}
+.satelite-bg{
+   display: flex;
+   width: auto;
+   height: 402px;
+   margin: 25px;
+   border-radius: 15px;
+   background-color: #dab5b5;
+   justify-content: space-between;
+}
+.satelite-img{
+   border-radius: 30px;
+   margin: 48px;
+   padding: 10px;
+}
+.right-text{
+   width: auto;
+   height: 290px;
+   gap: 32px;
+ 
+}
+
+.right-text2{
+   width: auto;
+   height: 290px;
+   gap: 32px;
+   margin-left: 20px;
+ 
+}
+/* donate sention */
+
+.donate-bg{
+   background-color: white;
+   width: auto;
+   height: 464px;
+
+}
+.donate-header{
+   /* background: #000; */
+   height: 120px;
+   width: auto;
+   text-align: center;
+}
+
+.taka-button{
+   width: auto;
+   height: 128px;
+   gap: 24px;
+
+
+}
+
+.button-100 {
+   background-color: lightblue;
+   color: black;
+   border: none;
+   padding: 50px 50px;
+   /* width: 100px; */
+   font-size: 16px;
+   cursor: pointer;
+   transition: background-color 0.3s ease, color 0.3s ease;
+   border-radius: 15px;
+}
+button:focus {
+   background-color: darkblue;
+   color: white;
+   outline: 2px solid orange; /* Optional: Add an outline for better accessibility */
+}
+.button-taka-bg{
+   width: auto;
+   height: 128px ;
+   gap: 24px;
+   display: flex;
+   justify-content: space-evenly;
+   margin: 0px 300px 0px 300px;
+}
+
+input[type="text"] {
+   width: 832px; /* Set the width of the input box */
+   height: 64px; /* Set the height of the input box */
+   padding: 0 10px; /* Add some padding for better spacing */
+   font-size: 16px; /* Set the font size for the input text */
+   box-sizing: border-box; /* Ensure padding does not affect width */
+   border: 2px solid #ccc; /* Add a border */
+   border-radius: 8px; /* Make the corners rounded */
+   text-align: center; /* Center the placeholder text */
+}
+.input-text{
+   text-align: center;
+   margin: 25px;
+   padding-top: 10px;
+
+}
+/* subscribe senction css here */
+.Subscribe-bg{
+   /* margin-top: 25px; */
+   text-align: center;
+   width: auto;
+   height: 365px;
+   background-color: rgb(78, 179, 145);
+   border-radius: 20px;
+   justify-content: baseline;
+   padding-top: 25px;
+
+
+}
+
+.button5{
+  
+   
+   width: 150px;
+   height: 60px;
+   border-radius: 5px;
+   border: 1px;
+   /* padding: 15px 30px 15px 30px; */
+   justify-content: center;
+   margin-top: 20px;
+   background-color: rgb(201, 190, 190);
+   margin-top: 20px;
+
+
+}
+ /* .subscribe-header{
+   height: 120px;
+   width: auto;
+   text-align: center;
+
+}  */
+
+/* .input-text2{
+   display: flex;
+   text-align: center;
+   margin: 25px;
+   padding-top: 10px;
+
+}
+
+.lern-button5{
+   
+   width: auto;
+   height: 52px;
+   border-radius: 8px;
+   border: 1px;
+   padding: 15px 30px 15px 30px;
+   justify-content: center;
+   margin-top: 10px;
+   background-color: rgb(201, 190, 190);
+   
+
+
+}  
+
+.donate-header{
+   text-align: center;
+   width: auto;
+   justify-content: center;
+} */
+
+/* footer */
+.footer {
+   margin-top: auto; /* Pushes the footer to the bottom */
+   text-align: center;
+   padding: 10px 0;
+   border-top: 1px solid #ccc; /* Top border line */
+   background-color: #f4f4f4;
+   font-size: 14px;
+   color: #555;
+ }
+
+ .footer-icon{
+   text-align: center;
+
+ }
+
+ /* Md Niamul Hossain
+    Northern University Bangladesh
+    dept. CSE
+    Phone:01743672770
+
+
+    "With hands that toil, dreams take flight,
+Hard work turns darkness into light."
+ */
+
